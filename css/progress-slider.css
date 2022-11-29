@@ -1,0 +1,26 @@
+.progress{
+    display: block;
+    width: 100%;
+ /*   max-width: 906px;*/
+    height: 1px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #CFCECB;
+    background-image: -webkit-gradient(linear, left top, right top, from(#707070), to(#707070));
+    background-image: linear-gradient(to right, #707070, #707070);
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    -webkit-transition: background-size .4s ease-in-out;
+    transition: background-size .4s ease-in-out;
+}
+
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
